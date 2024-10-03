@@ -1,3 +1,7 @@
+document.ontouchmove = function (e) {
+  e.preventDefault();
+}
+
 const toggleSwitch = document.getElementById("checkbox");
 const currentTheme = localStorage.getItem('theme');
 
