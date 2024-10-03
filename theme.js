@@ -1,4 +1,4 @@
-document.ontouchmove = function (e) {
+document.ontouchmove = function test(e) {
   e.preventDefault();
 }
 
